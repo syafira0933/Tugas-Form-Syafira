@@ -1,0 +1,64 @@
+body {
+    background: url(langit.jpg) no-repeat center center fixed;
+    background-size: cover; 
+    margin: 0; 
+    overflow: hidden; 
+    height: 100vh; 
+  }
+
+  .container {
+    background-color: rgba(93, 93, 179, 0.5);
+    border: dashed 4px;
+    border-color: white;
+    border-radius: 20px;
+    padding: 20px 40px;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 8vh;
+    box-shadow: 10px 5px;
+  }
+
+  .input {
+    margin: 9px;
+  }
+
+  .container h2 {
+    text-align: center;
+    border-bottom: 2px dashed;
+    border-color: white;
+    color: white;
+  }
+
+  .input label {
+    color: white;
+  }
+
+  .bttn {
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .bttn button {
+    width: 100px;
+    height: 25px;
+  }
+
+  .input select,
+  .input input[type="text"],
+  .input input[type="date"],
+  .input input[type="number"],
+  .input textarea {
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px; 
+    }
+  }
+    
+  
